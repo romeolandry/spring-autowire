@@ -21,7 +21,7 @@ public class App
     	BeanUserAccount client = (BeanUserAccount)context.getBean("cleintUserAccountid");
     	Personal.showUserAccount();
     	client.showUserAccount();
-    	//context.close();
+    	context.close();
     	
 	}
     public static void main( String[] args )
