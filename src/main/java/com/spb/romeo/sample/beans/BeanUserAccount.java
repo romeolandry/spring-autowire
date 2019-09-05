@@ -3,6 +3,7 @@ package com.spb.romeo.sample.beans;
 import java.util.Date;
 
 public interface BeanUserAccount {
+
 	
 	String getFirstName();
 	void setFirstName(String firstname);
@@ -14,6 +15,7 @@ public interface BeanUserAccount {
 	
 	String getType ();
 	void setType (String type);
+	void showUserAccount ();
 	
 
 }
