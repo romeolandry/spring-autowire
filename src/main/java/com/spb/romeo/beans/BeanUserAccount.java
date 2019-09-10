@@ -1,4 +1,4 @@
-package com.spb.romeo.sample.beans;
+package com.spb.romeo.beans;
 
 import java.util.Date;
 

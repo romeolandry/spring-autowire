@@ -1,26 +1,26 @@
-package com.spb.romeo.sample.beans;
+package com.spb.romeo.beans;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ClientUserAccount implements BeanUserAccount {
-	
+public class PersonalUserAccount implements BeanUserAccount {
 	private String firstname;
 	private String lastname;
 	private Date birthday;
 	private String type;
+		
 	
-	public ClientUserAccount() throws ParseException {
+	public PersonalUserAccount() throws ParseException {
 		// TODO Auto-generated constructor stub
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
 		Date   date       = format.parse ("13-08-1991");
 		this.firstname = "Romeo landry";
 		this.lastname = "Kamgo Chetchom";
 		this.birthday = date;
-		this.type = "Client";
+		this.type = "Personal Manager";
 	}
-	
+
 	public String getFirstName() {
 		// TODO Auto-generated method stub
 		return this.firstname;

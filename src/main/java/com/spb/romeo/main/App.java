@@ -1,4 +1,4 @@
-package com.spb.romeo.sample.main;
+package com.spb.romeo.main;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,8 +6,8 @@ import java.util.Date;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.spb.romeo.sample.beans.BeanUserAccount;
-import com.spb.romeo.sample.beans.PersonalUserAccount;
+import com.spb.romeo.beans.BeanUserAccount;
+import com.spb.romeo.beans.PersonalUserAccount;
 
 /**
  * Hello world!
